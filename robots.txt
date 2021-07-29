@@ -1,0 +1,3 @@
+# fichier pour les robots du site https://renaudlaz.github.io/RenaudLazardeux_4_30032021/
+User-Agent: * (autorise l’accès à tous les robots )
+Allow: /*.css?* (autorise l’accès à toutes les ressources css)
