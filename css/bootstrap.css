@@ -16,10 +16,11 @@ body {
     margin: 0
 }
 
-
-nav {
+nav,
+{
     display: block
 }
+
 
 a {
     background-color: transparent
@@ -34,6 +35,7 @@ h1 {
     margin: .67em 0;
     font-size: 2em
 }
+
 
 img {
     border: 0
@@ -51,7 +53,7 @@ button {
     overflow: visible
 }
 
-button {
+button, {
     text-transform: none
 }
 
@@ -79,7 +81,7 @@ textarea {
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
-    * {
+    *, {
         color: #000 !important;
         text-shadow: none !important;
         background: 0 0 !important;
@@ -93,7 +95,9 @@ textarea {
     a[href]:after {
         content: " (" attr(href) ")"
     }
-    img {
+    
+    img,
+  {
         page-break-inside: avoid
     }
     img {
@@ -112,9 +116,11 @@ textarea {
     .navbar {
         display: none
     }
+
     .label {
         border: 1px solid #000
     }
+    
 }
 
 @font-face {
@@ -123,11 +129,15 @@ textarea {
     src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
+
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
 }
+
+
 
 html {
     font-size: 10px;
@@ -171,8 +181,8 @@ img {
     vertical-align: middle
 }
 
-
-.img-responsive {
+.img-responsive
+ {
     display: block;
     max-width: 100%;
     height: auto
@@ -194,7 +204,8 @@ img {
 .h3,
 h1,
 h2,
-h3 {
+h3,
+ {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
@@ -211,6 +222,7 @@ h3 {
     margin-bottom: 10px
 }
 
+
 .h1,
 h1 {
     font-size: 36px
@@ -226,13 +238,16 @@ h3 {
     font-size: 24px
 }
 
+
 p {
     margin: 0 0 10px
 }
 
+
 .text-center {
     text-align: center
 }
+
 
 
 ul {
@@ -240,10 +255,10 @@ ul {
     margin-bottom: 10px
 }
 
-
 ul ul {
     margin-bottom: 0
 }
+
 
 .container {
     padding-right: 15px;
@@ -269,6 +284,8 @@ ul ul {
         width: 1170px
     }
 }
+
+
 
 .row {
     margin-right: -15px;
@@ -296,6 +313,7 @@ ul ul {
 .col-xs-12 {
     width: 100%
 }
+
 
 @media (min-width:768px) {
     
@@ -332,12 +350,7 @@ ul ul {
     }
 }
 
-label {
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 5px;
-    font-weight: 700
-}
+
 
 .form-control {
     display: block;
@@ -377,6 +390,7 @@ label {
 .form-control::-webkit-input-placeholder {
     color: #999
 }
+
 
 textarea.form-control {
     height: auto
@@ -480,10 +494,6 @@ input[type=submit].btn-block {
     background-color: #eee
 }
 
-.nav>li>a>img {
-    max-width: none
-}
-
 .navbar {
     position: relative;
     min-height: 50px;
@@ -555,10 +565,6 @@ input[type=submit].btn-block {
 .navbar-brand:focus,
 .navbar-brand:hover {
     text-decoration: none
-}
-
-.navbar-brand>img {
-    display: block
 }
 
 @media (min-width:768px) {

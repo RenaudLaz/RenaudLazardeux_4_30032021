@@ -5,14 +5,19 @@
     <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
     <meta name="description" content="Site de la chouette agence, agence qui améliore les entreprises a etre visible sur internet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    
+	<link rel="shortcut icon" type="image/png" href="./img/favicon.jpg">
+
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-
 	
     <title>La chouette agence</title>
-    
+
+    <script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
 </head>
 
 
@@ -109,7 +114,7 @@
 			</div>
 			<div class="row voffset-lg voffset">
 				<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-	"La chouette agence est une excellente agence web! Les webs designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer sur notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon."
+	"La chouette agence est une excellente agence web! Les webs designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer sur notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon."</br>
 	Maxime Guibard, PDG de A vos fourchettes
 				</div>
 			</div>
@@ -125,8 +130,8 @@
 					<h2 class="mg-md text-center tc-white">
 						Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .
 					</h2>
-					<p class="text-center white">
-						Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.<a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a>
+					<p class="text-center tc-white">
+						Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.<br/><a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a>
 					</p>
 				</div>
 			</div>
@@ -202,50 +207,39 @@
 <!-- bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
-	<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-		<div class="container bloc-sm">
-			<div class="row">
-				<div class="col-sm-12">
-					<p class="text-center white">
-						La chouette agence - Agence web basée à Lyon.
-					</p>
-					<div class="row row-no-gutters social">
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" href="https://twitter.com"><span class="et-icon-twitter icon-md"></span></a>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" href="https://www.facebook.com/"><span class="et-icon-facebook icon-md"></span></a>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" href="https://dribbble.com/"><span class="et-icon-dribbble icon-md"></span></a>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" href="https://www.instagram.com/?hl=fr"><span class="et-icon-camera icon-md"></span></a>
-							</div>
+<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="text-center white">
+					La chouette agence - Agence web basée à Lyon.
+				</p>
+				<div class="row row-no-gutters social">
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" title="twitter" href="https://twitter.com"><span class="et-icon-twitter icon-md"></span></a>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-sm-4">
-							Liens partenaires
-								<ul>
-									<li><a href="voiture.com">voiture.com</a></li>
-									<li><a href="pizza.com">pizza.com</a></li>
-									<li><a href="matoiture.com">matoiture.com</a></li>
-									<li><a href="immobilierseo.com">immobilierseo.com</a></li>
-								</ul>		
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" title="facebook" href="https://www.facebook.com/"><span class="et-icon-facebook icon-md"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" title="dribbble" href="https://dribbble.com/"><span class="et-icon-dribbble icon-md"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" title="instagram" href="https://www.instagram.com/?hl=fr"><span class="et-icon-camera icon-md"></span></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 <!-- Footer - bloc-8 END -->
 
 	</div>
